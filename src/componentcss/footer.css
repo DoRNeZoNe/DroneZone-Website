@@ -1,0 +1,21 @@
+.containerfooter{
+    border-radius: 10px;
+    background: rgba(198, 198, 198, 0.15);
+}
+
+.logodz{
+    color: #FFF;
+    font-family: Calistoga;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logoname{
+    color: #FFF;
+    font-family: Cabin Condensed;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

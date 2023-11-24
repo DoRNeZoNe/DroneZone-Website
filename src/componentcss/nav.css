@@ -1,0 +1,21 @@
+.navbar{
+    
+    height: 50px;
+    width: 500px;
+    align-items: center;
+    
+}
+.logoD{
+    color: #FFF;
+    font-family: Calistoga;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logoZ{
+    color: #E94F4F;
+    font-family: Calistoga;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
