@@ -1,9 +1,9 @@
 .navbar{
-    
     height: 50px;
-    width: 500px;
     align-items: center;
-    
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 .logoD{
     color: #FFF;
@@ -19,3 +19,13 @@
     font-weight: 400;
     line-height: normal;
 }
+.prevent-select {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+  }
+/* .callnow{
+    @media (min-width: 755px) {
+    margin-bottom: 0px;
+} 
+}*/

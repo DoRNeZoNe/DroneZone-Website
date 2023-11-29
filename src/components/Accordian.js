@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../componentcss/accordion.css";
+import "../componentCss/accordion.css";
 
 const Accordion = ({ title, content }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -18,13 +18,17 @@ const Accordion = ({ title, content }) => {
 			>
 				<div className="flex w-[600px]">
 					<div className="">
-						<p>{title}</p>
+						<div className="text-white lg:w-[1020px]">{title}</div>
 					</div>
-					<div className="mt-[-9px] ml-[833px] absolute ">
+					<div className="logoplus mt-[-9px] lg:ml-[944px]  absolute justify-center flex items-center ">
 						<span
 							className={`material-symbols-outlined ${isOpen ? "active1" : ""}`}
 						>
-							{!isOpen ? <div>+</div> : <div>-</div>}
+							{!isOpen ? (
+								<div className="-mt-[4px]">+</div>
+							) : (
+								<div className="-mt-[4px]">-</div>
+							)}
 						</span>
 					</div>
 				</div>

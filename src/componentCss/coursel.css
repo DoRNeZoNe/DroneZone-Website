@@ -1,0 +1,24 @@
+
+.slick-dots {
+    @apply mt-4; /* Add margin-top for spacing */
+  }
+  
+  /* Custom styles for each dot */
+  .slick-dot {
+    @apply w-6 h-6 mx-2 rounded-full; /* Increase width and height for larger dots */
+    /* @apply bg-blue-500; Change the background color to your desired color */
+  }
+  
+  /* Active dot styles (optional) */
+  .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(166, 157, 157);
+  }
+  .slick-dots li button:before {
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 1;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-size: 40px;
+  }

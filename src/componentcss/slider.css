@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -91,7 +90,7 @@
 
 .all-dots {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   position: absolute;
   display: flex;
   top: 80%;

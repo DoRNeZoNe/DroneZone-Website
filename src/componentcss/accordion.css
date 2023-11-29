@@ -1,14 +1,16 @@
-
-
-  .accordion {
-    width: 900px;
+.accordion {
+    width: 1020px;
     border: 1px solid #43434a;
     margin-bottom: 20px;
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease;
   }
-  
+@media screen and (max-width: 1024px) {
+    .accordion {
+      width: 550px;
+  }
+}
   .accordion:hover {
     transform: scale(1.02);
   } 
@@ -22,24 +24,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #17161a;
+    /* background-color: #17161a; */
+    background-color: rgba(198, 198, 198, 0.15);;
     padding: 15px 20px;
     cursor: pointer;
   }
   
-  .accordion-header p {
+  /* .accordion-header p {
     color: #fff;
-  }
+  } */
   
   .accordion-header span {
     
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
     font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #6ae88b;
+    border-width: 1px;
+    border-color: #6ae88b;
     background: #44484d;
     border-radius: 50%;
     user-select: none;
@@ -56,6 +61,18 @@
     line-height: 26px;
     padding: 20px;
     color: #95959a;
-    background-color: #17161a;
+    /* background-color: #17161a; */
+    background-color: rgba(198, 198, 198, 0.15);
     border-top: 1px solid #43434a;
   }
+
+  .logoplus{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .logoplus {
+      margin-left: 482px;
+  }
+}
