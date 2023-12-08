@@ -11,24 +11,27 @@ import Coursel from "../components/Coursel";
 
 const Home = () => {
 	return (
-		<>
+		<div>
 			<div className="lg:flex justify-center">
 				<div className="flex-col flex justify-center  ">
-					<div className="droneZone text-6xl mt-[147px] mx-[128px] lg:w-[275px]">
+					<div className="droneZone mt-20  text-6xl lg:mt-[147px] lg:mx-[128px] lg:w-[275px]">
 						<div>DroneZone</div>
 					</div>
-					<div className="content1 w-[80%] h-[100px] mx-32 my-8 lg:w-[431px] lg:h-[38px]">
+					<div className="content1   lg:mx-32 my-8 lg:w-[431px] lg:h-[38px]">
 						Your Gateway to Cinematic Excellence!
 					</div>
-					<div className="content2 w-[80%] h-[200px] mx-32 my-8 lg:w-[640px] lg:h-[106px]">
-						We're here to make your aerial dreams come true. Our mission is
-						simple: to provide you with cutting-edge cinematic drones that are
-						not only lightweight but also incredibly affordable.
+					<div>
+						<div className="content2 lg:mx-32 my-8 lg:w-[640px] lg:h-[106px]">
+							We're here to make your aerial dreams come true. Our mission is
+							simple: to provide you with cutting-edge cinematic drones that are
+							not only lightweight but also incredibly affordable.
+						</div>
 					</div>
 				</div>
 
-				<div className="imagedrone   my-16 lg:mt-[147px]  w-[350px] h-[300px] ">
-					<img className="ml-[137px] lg:ml-[-6rem] " src={drone} alt="" />
+				{/* <div className="imagedrone   my-16 lg:mt-[147px]  w-[350px] h-[300px] "> */}
+				<div className=" relative lg:right-[80px]   lg:mt-[147px] w-full flex justify-center items-center">
+					<img className="imagedrone" src={drone} alt="" />
 				</div>
 			</div>
 			<div className="content3 flex justify-center text-xl w-full lg:text-5xl ">
@@ -85,7 +88,7 @@ const Home = () => {
 				Frequently asked questions
 			</div>
 
-			<div className="flex ml-[100px] mt-16 mb-12 justify-center items-center">
+			<div className="hidden flex ml-[100px] mt-16 mb-12 justify-center items-center">
 				<div className=" accordion1 flex flex-col justify-center items-center ">
 					{question.map((q) => {
 						return (
@@ -94,7 +97,7 @@ const Home = () => {
 					})}
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

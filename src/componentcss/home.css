@@ -13,6 +13,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-style: normal;
     line-height: normal;
 }
+
 .content1{
     /* width: 431px; */
     /* height: 38px; */
@@ -36,8 +37,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     line-height: normal;
 }
 .imagedrone{
-    
-    transform: rotate(8.549deg);
+    @media(min-width: 1024px){
+        transform: rotate(8.549deg);
+    }
     /* flex-shrink: 0; */
     /* background: url('../images/drone.png'),  100% / cover no-repeat; */
 }
@@ -100,3 +102,12 @@ border-radius: 50%;
         margin-left: 50px;
      }
 } */
+
+
+@media (max-width:1024px ){
+    .droneZone,.content1,.content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
