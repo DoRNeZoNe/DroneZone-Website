@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../componentCss/nav.css";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
 	const [bar, setBar] = useState("fa-bars");
 	const [close, setClose] = useState(true);
@@ -15,6 +16,13 @@ const Navbar = () => {
 			setHide("hidden");
 		}
 	};
+	const navigate = useNavigate();
+	const handleClickModels = () => {
+		navigate("/models");
+	};
+	const handleClickHome = () => {
+		navigate("/");
+	};
 	return (
 		<div className=" navbar flex items-center fixed  backdrop-blur-lg bg-transparent/10 w-full  snap- flex-no-wrap  mt-0 z-50   p-11">
 			<div>
@@ -26,12 +34,18 @@ const Navbar = () => {
 
 			<div className="links relative mt-6 mx-auto flex text-xl md:mt-4 md:mx-36">
 				<div className="home  text-cyan-50  mx-14 ">
-					<div className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed">
+					<div
+						onClick={handleClickHome}
+						className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+					>
 						Home
 					</div>
 				</div>
 				<div className="models  text-cyan-50 mx-14 ">
-					<div className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed">
+					<div
+						onClick={handleClickModels}
+						className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+					>
 						Models
 					</div>
 				</div>
@@ -53,7 +67,7 @@ const Navbar = () => {
 					<li>Models</li>
 					<li>Contact</li>
 					<button className="action_btn hover:border-2 border-[1px] border-blue-400">
-						Call now
+						Call Now
 					</button>
 				</div>
 			</div>

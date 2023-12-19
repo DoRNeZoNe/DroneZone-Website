@@ -31,7 +31,8 @@ const Carousel = () => {
 						<div className="absolute inset-0 mt-14 flex items-center justify-center">
 							<div className="text-white mt-[29rem] flex flex-col justify-center items-center">
 								<h2 className="text-3xl font-bold ">{s.title}</h2>
-								<p>{s.message}</p>
+								{/* <div className="lg:text-lg text-base">{s.message}</div> */}
+								<div className="lg:text-lg    w-full h-full">{s.message}</div>
 								{/* </div> */}
 							</div>
 						</div>
