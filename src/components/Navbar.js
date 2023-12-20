@@ -23,6 +23,9 @@ const Navbar = () => {
 	const handleClickHome = () => {
 		navigate("/");
 	};
+	const handleClickContact = () => {
+		navigate("/contact");
+	};
 	return (
 		<div className=" navbar flex items-center fixed  backdrop-blur-lg bg-transparent/10 w-full  snap- flex-no-wrap  mt-0 z-50   p-11">
 			<div>
@@ -50,7 +53,10 @@ const Navbar = () => {
 					</div>
 				</div>
 				<div className="contact  text-cyan-50 mx-14">
-					<div className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed">
+					<div
+						onClick={handleClickContact}
+						className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+					>
 						Contact
 					</div>
 				</div>
@@ -63,9 +69,9 @@ const Navbar = () => {
 			</div>
 			<div className={`${hide}`}>
 				<div className="dropdown_menu backdrop-blur-lg bg-transparent/10">
-					<li>Home</li>
-					<li>Models</li>
-					<li>Contact</li>
+					<li onClick={handleClickHome}>Home</li>
+					<li onClick={handleClickModels}>Models</li>
+					<li onClick={handleClickContact}>Contact</li>
 					<button className="action_btn hover:border-2 border-[1px] border-blue-400">
 						Call Now
 					</button>

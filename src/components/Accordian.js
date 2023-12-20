@@ -70,9 +70,9 @@ const Accordion = ({ title, content }) => {
 							className={`material-symbols-outlined ${isOpen ? "active1" : ""}`}
 						>
 							{!isOpen ? (
-								<div className="mt-[-4px]">+</div>
+								<div className="lg:mt-[-4px]">+</div>
 							) : (
-								<div className="mt-[-4px]">-</div>
+								<div className="lg:mt-[-4px]">-</div>
 							)}
 						</span>
 					</div>

@@ -1,0 +1,21 @@
+.contact{
+    border-radius: 20px;
+border: 1px solid #5B5B5B;
+background: rgba(55, 55, 55, 0.40);
+}
+
+.inputBox{
+    border-radius: 20px;
+background: rgba(56, 83, 93, 0.30);
+}
+
+.button{
+    border-radius: 4px;
+border: 1px solid #38CEFE;
+transition: background-color 0.3s; 
+}
+
+.button:hover{
+    border: 2px solid #38CEFE;
+    cursor: pointer;
+}

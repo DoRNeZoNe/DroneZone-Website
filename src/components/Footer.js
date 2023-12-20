@@ -63,7 +63,7 @@ import instagram from "../images/instagram 1.png";
 import "../componentCss/footer.css";
 const Footer = () => {
 	return (
-		<footer className="flex flex-col items-center bg-neutral-100 text-center dark:bg-neutral-600 lg:text-left">
+		<footer className="flex flex-col items-center mt-10  bg-neutral-100 text-center dark:bg-neutral-600 lg:text-left">
 			<div className="container p-6">
 				<div className="grid place-items-center md:grid-cols-2 lg:grid-cols-4">
 					<div className="mb-6">
