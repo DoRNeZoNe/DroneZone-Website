@@ -1,0 +1,17 @@
+.containerfooter {
+  border-radius: 10px;
+  background: rgba(198, 198, 198, 0.15);
+}
+.fotterBody {
+  border-radius: 10px;
+  background: rgba(198, 198, 198, 0.15);
+}
+
+.logo {
+  color: #fff;
+  font-family: Calistoga;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
