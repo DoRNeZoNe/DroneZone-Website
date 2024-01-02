@@ -1,4 +1,4 @@
-import dronesec from "../images/drone.png";
+import dronesec from "../images/dronee.png";
 import drone1 from "../images/drone2.png";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [

@@ -20,9 +20,7 @@
   font-weight: 400;
   line-height: normal;
 }
-.MuiPopover-paper {
-  color: red; /* Change 'red' to the desired color */
-}
+
 .prevent-select {
   -webkit-user-select: none;
   -ms-user-select: none;
