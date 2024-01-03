@@ -1,28 +1,44 @@
-
-.featuresBox{
-    border-radius: 10px;
-background: rgba(198, 198, 198, 0.15);
+.featuresBox {
+  border-radius: 10px;
+  background: rgba(198, 198, 198, 0.15);
 }
 
-.content{
-    color: #FFF;
-font-family: Lato;
-
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+@media only screen and (min-width: 800px) {
+  .features {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
-.modelName{
-    color: #FFF;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+@media only screen and (max-width: 800px) and (min-width: 450px) {
+  .features {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-.button{
-    border-radius: 4px;
-border: 1px solid #38CEFE;
+@media only screen and (max-width: 450px) {
+  .features {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.content {
+  color: #fff;
+  font-family: Lato;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modelName {
+  color: #fff;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button {
+  border-radius: 4px;
+  border: 1px solid #38cefe;
 }

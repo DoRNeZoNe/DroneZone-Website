@@ -104,33 +104,33 @@ function ResponsiveAppBar() {
               <div className="  flex flex-col justify-center items-center  text-black w-[120px]  shadow-neutral-600">
                 <div
                   className="flex justify-center items-center 
-						 hover:cursor-pointer hover:text-emerald-400    "
+						 hover:cursor-pointer hover:text-red-400    "
                   onClick={handleClickHome}
                 >
                   Home
                 </div>
                 <div
                   className="flex justify-center items-center  
-						 hover:cursor-pointer hover:text-emerald-400  "
+						 hover:cursor-pointer hover:text-red-400  "
                   onClick={handleClickModels}
                 >
                   Models
                 </div>
                 <div
                   className="flex justify-center items-center  
-						 hover:cursor-pointer hover:text-emerald-400  "
+						 hover:cursor-pointer hover:text-red-400  "
                   onClick={handleClickContact}
                 >
                   Contact
                 </div>
-                <div className="flex justify-center items-center">
+                {/* <div className="flex justify-center items-center">
                   <button
                     type="button"
                     className="  hover:cursor-pointer  action_btn hover:border-2 border-[1px] w-[100px]  border-blue-400 "
                   >
                     Call Now
                   </button>
-                </div>
+                </div> */}
               </div>
             </Menu>
           </Box>
@@ -162,7 +162,7 @@ function ResponsiveAppBar() {
             <div className="home  text-cyan-50  mx-14 ">
               <div
                 onClick={handleClickHome}
-                className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+                className="hover:cursor-pointer -mt-[13px]  hover:text-red-400  fixed"
               >
                 Home
               </div>
@@ -170,7 +170,7 @@ function ResponsiveAppBar() {
             <div className="models  text-cyan-50 mx-14 ">
               <div
                 onClick={handleClickModels}
-                className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+                className="hover:cursor-pointer -mt-[13px]  hover:text-red-400  fixed"
               >
                 Models
               </div>
@@ -178,7 +178,7 @@ function ResponsiveAppBar() {
             <div className="contact  text-cyan-50 mx-14">
               <div
                 onClick={handleClickContact}
-                className="hover:cursor-pointer -mt-[13px]  hover:text-2xl  fixed"
+                className="hover:cursor-pointer -mt-[13px]  hover:text-red-400  fixed"
               >
                 Contact
               </div>

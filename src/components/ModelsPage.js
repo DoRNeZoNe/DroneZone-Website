@@ -11,11 +11,11 @@ function ModelsPage() {
             <div className="modelName flex justify-center items-center mt-40 text-white">
               {d.modelName}
             </div>
-            <div className="droneImage w-[60%] flex justify-center items-center">
+            <div className="droneImage w-[60%] flex justify-center items-center m-6">
               <img className="  " src={d.image} alt="" />
             </div>
-            <div className="featuresBox  flex max-sm:h-auto max-sm:w-[60%]   h-28 w-[65%] flex-row">
-              <div className="flex flex-wrap gap-4 justify-between w-[70%] mt-[21px] mx-auto">
+            <div className="featuresBox  flex max-sm:h-auto max-sm:w-[60%]   h-auto w-[65%] flex-row">
+              <div className=" features grid place-items-center   md:grid-cols-2 lg:grid-cols-4 gap-4 justify-between w-[70%] mt-[21px] mx-auto mb-[30px]">
                 <div className="grid-item ">
                   <div className="flex flex-col space-y-3 justify-center items-center text-white ">
                     <div>{d.range}</div>
