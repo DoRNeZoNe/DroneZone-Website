@@ -37,7 +37,7 @@ function Home() {
           Features you would definitely loves
         </div>
         <div className="flex justify-center">
-          <div className=" flex  mt-[150px] space-y-12 mb-32 lg:mt-[123px] lg:items-end h-auto justify-center  lg:space-x-12  flex-col lg:flex-row lg:flex gap-[50px] ">
+          <div className=" flex  mt-[150px] space-y-24 mb-32 lg:mt-[123px] lg:items-end h-auto justify-center  lg:space-x-11 flex-col lg:flex-row lg:flex max-md:gap-[50px] ">
             <div className="card1 ">
               <div className="ballsvg flex justify-center items-center  ml-28 -mt-14 ">
                 <div className="number  text-white text-4xl">1</div>

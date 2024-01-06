@@ -15,17 +15,14 @@ function Footer() {
             <div className="mb-6 ">
               <div className="mb-0 flex flex-col justify-center items-center">
                 <div>
-                  <div
-                    href="#!"
-                    className="logo text-neutral-800 dark:text-neutral-200"
-                  >
+                  <div href="#!" className="logo text-white ">
                     DZ
                   </div>
                 </div>
                 <div>
                   <div
                     href="#!"
-                    className=" dark:text-neutral-200 text-white font-cabin-condensed text-35 text-3xl"
+                    className="  text-white font-cabin-condensed text-35 text-3xl"
                   >
                     Drone Zone
                   </div>
@@ -39,40 +36,28 @@ function Footer() {
             </div>
 
             <div className="mb-6">
-              <div className="mb-2.5 font-lato font-bold text-xl  text-neutral-800 dark:text-neutral-200">
+              <div className="mb-2.5 font-lato font-bold text-xl  text-white ">
                 About
               </div>
 
               <ul className="mb-0 flex flex-col space-y-2">
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Company
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Contact Us
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Terms and Services
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Privacy and Podivcy
                   </a>
                 </div>
@@ -80,32 +65,23 @@ function Footer() {
             </div>
 
             <div className="mb-6">
-              <div className="mb-2.5 font-lato font-bold text-xl  text-neutral-800 dark:text-neutral-200">
+              <div className="mb-2.5 font-lato font-bold text-xl  text-white ">
                 Product
               </div>
 
               <ul className="mb-0  flex flex-col space-y-2">
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Categories
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Pricing
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Testimonials
                   </a>
                 </div>
@@ -113,48 +89,36 @@ function Footer() {
             </div>
 
             <div className="mb-6">
-              <div className="mb-2.5 font-lato font-bold text-xl  text-neutral-800 dark:text-neutral-200">
+              <div className="mb-2.5 font-lato font-bold text-xl  text-white ">
                 Discover
               </div>
 
               <ul className="mb-0  flex flex-col space-y-2">
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Teams
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Partners
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Career
                   </a>
                 </div>
               </ul>
             </div>
             <div className="mb-6">
-              <div className="mb-2.5 font-lato font-bold text-xl  text-neutral-800 dark:text-neutral-200">
+              <div className="mb-2.5 font-lato font-bold text-xl  text-white ">
                 Get in touch
               </div>
 
               <div className="mb-0  flex flex-col space-y-2">
                 <div className="flex justify-start max-md:justify-center">
-                  <div
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <div href="#!" className="text-white ">
                     Contact
                   </div>
                 </div>
@@ -166,10 +130,7 @@ function Footer() {
                 </div>
 
                 <div className="flex justify-start max-md:justify-center">
-                  <div
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <div href="#!" className="text-white ">
                     Email
                   </div>
                 </div>
@@ -180,10 +141,7 @@ function Footer() {
                   <div className="text-white">hello@dronezone.com</div>
                 </div>
                 <div className="flex justify-start max-md:justify-center">
-                  <a
-                    href="#!"
-                    className="text-neutral-800 dark:text-neutral-200"
-                  >
+                  <a href="#!" className="text-white ">
                     Location
                   </a>
                 </div>
@@ -200,11 +158,11 @@ function Footer() {
           </div>
         </div>
         <div className="h-[1px] w-full bg-white">.</div>
-        <div className=" p-2 w-full flex items-center flex-row">
-          <div className="   left-0 text-neutral-700  dark:text-neutral-200">
+        <div className=" p-1 w-full flex items-center flex-row gap-6">
+          <div className="   left-0 text-white  ">
             © 2023 All rights reserved
           </div>
-          <div className="flex right-4 flex-row md:absolute text-white gap-16">
+          <div className="  flex  right-4 flex-row sm:absolute text-white gap-16">
             <div className="">Privacy Policy</div>
             <div className="">Website terms</div>
           </div>
