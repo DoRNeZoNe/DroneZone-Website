@@ -1,86 +1,89 @@
-
-.droneZone{
-   
-    height: 58px; 
-   color: #FFF;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
+.droneZone {
+  height: 58px;
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
 }
 
-.content1{
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
+.content1 {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
 }
-.content2{
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
+.content2 {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
 }
-.imagedrone{
-    @media(min-width: 1024px){
-        transform: rotate(8.549deg);
-    }
+.imagedrone {
+  @media (min-width: 1024px) {
+    transform: rotate(8.549deg);
+  }
 }
-.content3{
-    color: #FFF;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
-}
-
-.card1{
-    width: 329px;
-    height: 308px;  
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: rgba(198, 198, 198, 0.15);
-}
-.ballsvg{
-    width: 100px;
-height: 100px;
-flex-shrink: 0;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E94F4F;
-filter: drop-shadow(2px 2px 4px #930000);
-border-radius: 50%;
+.content3 {
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
 }
 
-.number{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.card1 {
+  width: 329px;
+  height: 308px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(198, 198, 198, 0.15);
+}
+.ballsvg {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    #e94f4f;
+  filter: drop-shadow(2px 2px 4px #930000);
+  border-radius: 50%;
 }
 
-.content4{
-    color: #FFF;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
+.number {
+  color: #fff;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.content5{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.content4 {
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
 }
 
+.content5 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
-
-@media (max-width:1024px ){
-    .droneZone,.content1,.content2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 1024px) {
+  .droneZone,
+  .content1,
+  .content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
