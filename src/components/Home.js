@@ -11,25 +11,24 @@ function Home() {
   return (
     <>
       <div className="homeBody">
-        <div className="lg:flex justify-center">
-          <div className="flex-col flex justify-center  ">
-            <div className="droneZone mt-20 max-sm:text-5xl  text-6xl lg:mt-[147px] lg:mx-[128px] lg:w-[275px] max-lg:mt-[150px]">
-              <div>DroneZone</div>
+        <div className="flex justify-center items-center mt-44 flex-col w-full lg:flex-row text-white mb-14 max-lg:gap-6 lg:mb-48">
+          <div className="flex justify-center max-lg:mx-14 lg:mx-14 gap-8 items-start flex-col lg:w-[800px]">
+            <div className="max-sm:text-5xl text-6xl">
+              <div className="">DroneZone</div>
             </div>
-            <div className="content1 max-lg:mt-[50px] max-lg:mx-[10%] max-sm:text-lg text-3xl lg:mx-32 my-8 lg:w-[431px] lg:h-[38px]">
+            <div className="max-sm:text-lg text-3xl lg:h-[38px]">
               Your Gateway to Cinematic Excellence!
             </div>
 
-            <div>
-              <div className="content2 max-lg:mx-[10%] max-sm:text-sm lg:mx-32 my-8 lg:w-[640px] lg:h-[106px]">
+            <div className="w-full">
+              <div className="max-sm:text-sm w-full lg:w-[65%] ">
                 We are here to make your aerial dreams come true. Our mission is
                 simple: to provide you with cutting-edge cinematic drones that
                 are not only lightweight but also incredibly affordable.
               </div>
             </div>
           </div>
-
-          <div className=" relative lg:right-[80px]   lg:mt-[147px] w-full flex justify-center items-center">
+          <div className=" relative flex justify-center items-center">
             <img className="imagedrone" src={drone} alt="" />
           </div>
         </div>
