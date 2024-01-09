@@ -1,16 +1,26 @@
-const express = require("express");
-const cors = require("cors");
+const mongoose = require("mongoose");
 
-const connectToMongo = require("./db");
+// eslint-disable-next-line import/no-extraneous-dependencies
+const dotenv = require("dotenv");
 
-const app = express();
+const app = require("./app");
+
+dotenv.config({ path: "./config.env" });
+
+const atlasConnectionString = process.env.DATABASE.replace(
+  "<PASSWORD>",
+  process.env.DATABASE_PASSWORD,
+);
+
+mongoose.connect(atlasConnectionString);
+
 const port = process.env.PORT || 5005;
-const feedbackRouter = require("./router/feedbackRouter");
-// connectToMongo();
-app.use(cors());
-app.use(express.json());
+const db = mongoose.connection;
 
-app.use("/api", feedbackRouter);
+db.on("error", console.error.bind(console, "MongoDB connection error:"));
+db.once("open", () => {
+  console.log("Connected to MongoDB");
+});
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
