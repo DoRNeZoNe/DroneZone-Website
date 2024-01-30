@@ -6,7 +6,7 @@ function ModelsPage() {
   return (
     <div className="modelBody min-h-screen">
       {droneModel.map((d) => (
-        <div>
+        <div key={d.id}>
           <div className="flex justify-center items-center flex-col">
             <div className="modelName flex justify-center items-center mt-40 text-white">
               {d.modelName}
