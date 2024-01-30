@@ -13,7 +13,12 @@ function Faq() {
 
       <div className=" mt-12 flex flex-col justify-center items-center ">
         {question.map((q) => (
-          <Accordian index={q.id} title={q.question} content={q.answer} />
+          <Accordian
+            key={q.id}
+            index={q.id}
+            title={q.question}
+            content={q.answer}
+          />
         ))}
       </div>
     </div>

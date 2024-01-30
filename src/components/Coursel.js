@@ -68,7 +68,7 @@ function Carousel() {
     <div className="container mx-auto w-[60%] p-4 h-[600px]">
       <Slider {...settings}>
         {sliderImage.map((s) => (
-          <div className="relative">
+          <div className="relative" key={s.id}>
             <div className="flex justify-center mb-[100px]">
               <img
                 src={s.urls}

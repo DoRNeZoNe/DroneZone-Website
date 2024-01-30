@@ -5,9 +5,7 @@ const catchAsync = require("../utils/catchAsync.js");
 exports.addFeedback = catchAsync(async (req, res) => {
   try {
     const newFeedback = await Feedback.create(req.body);
-    // const { task } = req.body;
-    const data = req.body;
-    console.log("Data which is added", data);
+    // console.log(req.body);
     res.status(201).json({
       status: "success",
       feedback: newFeedback,
